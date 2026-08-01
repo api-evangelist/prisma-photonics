@@ -1,8 +1,26 @@
 aid: prisma-photonics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prisma-photonics.png
 name: Prisma Photonics
-description: Prisma Photonics is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Prisma Photonics is an infrastructure-monitoring company that turns existing
+  optical fiber into a continuous sensing network using its Hyper-Scan Fiber-Sensing
+  distributed acoustic sensing technology. The platform measures strain, temperature,
+  pressure, and acoustic signatures at every point along hundreds of kilometers of fiber
+  with sub-meter resolution, and applies AI-driven classification to detect and identify
+  events in real time. It is used to protect and monitor power lines, oil and gas
+  pipelines, perimeters, subsea assets, and smart rail and road infrastructure. Backed
+  by Insight Partners, the company was added to the API Evangelist network as a portfolio
+  lead; as of this enrichment pass it publishes no public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/prisma-photonics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fiber Sensing
+- Distributed Acoustic Sensing
+- Infrastructure Monitoring
+- Critical Infrastructure
+- Perimeter Security
+- Energy
+- Sensors
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.prismaphotonics.com/
+- type: Blog
+  url: https://www.prismaphotonics.com/media-news/
+- type: Support
+  url: https://www.prismaphotonics.com/contact/
+- type: PrivacyPolicy
+  url: https://www.prismaphotonics.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.prismaphotonics.com/terms-of-use/
+- type: DomainSecurity
+  url: security/prisma-photonics-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
