@@ -33,6 +33,9 @@ description: Prisma Photonics is an infrastructure-monitoring company that turns
   by Insight Partners, the company was added to the API Evangelist network as a portfolio
   lead; as of this enrichment pass it publishes no public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/prisma-photonics/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Backed by Insight Partners, the company was added to the API Evangelist network as a portfolio lead; as of this enrichment pass it publishes no public API or developer program."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
